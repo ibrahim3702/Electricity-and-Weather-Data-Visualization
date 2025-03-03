@@ -10,28 +10,6 @@ This project aims to predict electricity demand using time series analysis and l
 * Build and evaluate a linear regression model for demand prediction.
 * Create an interactive web application for easy visualization and sharing of results.
 
-## Project Structure
-lectricityDemandPrediction/
-├── electricity_analysis.py       # Main Python script
-├── data_processing.log           # Log file for processing information
-├── cleaned_combined_data.csv    # Cleaned and preprocessed data
-├── eda_plots/                    # Directory for EDA plots
-│   ├── time_series.png
-│   ├── univariate.png
-│   ├── correlation.png
-│   ├── decomposition.png
-├── regression_plots/             # Directory for regression model plots
-│   ├── actual_vs_predicted.png
-│   ├── residual_distribution.png
-│   ├── residual_vs_predicted.png
-├── raw/
-│   ├── electricity_raw_data/   # Directory for electricity JSON files
-│   │   ├── ...
-│   ├── weather_raw_data/       # Directory for weather CSV files
-│   │   ├── ...
-└── README.md
-
-
 ## Detailed Functionality
 
 1.  **Data Loading and Integration:**
